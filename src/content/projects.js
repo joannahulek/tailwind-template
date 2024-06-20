@@ -47,7 +47,7 @@ const publicspeaking =[
     new Project(
         'Jak zepsułam Scrum? Case Study',
         '10th Jun 2024',
-        '',
+        'Webinar about frequently mistakes during implementing Scrum framework - based on my own practices and cooperation with experienced, professional Scrum Masters and IT Managers.<br>In addition to case study that shows how common mistakes impacts for product developming, also includes conclusions and tips for beginner Scrum Masters, Menagers and people who want to work in Scrum or start thier jurney with Agile.',
         ['']
     )
 ]
