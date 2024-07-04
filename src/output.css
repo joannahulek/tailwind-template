@@ -96,14 +96,13 @@ abbr:where([title]) {
 Remove the default font size and weight for headings.
 */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
+.url-text {
+  display: inline-flex;
+  align-items: center;
+  color: darkcyan;
+}
+.url-text svg {
+  margin-right: 5px;
 }
 
 /*
@@ -335,9 +334,9 @@ h5,
 h6,
 hr,
 figure,
-p,
 pre {
   margin: 0;
+  color: darkslategray;
 }
 
 fieldset {
@@ -349,8 +348,6 @@ legend {
   padding: 0;
 }
 
-ol,
-ul,
 menu {
   list-style: none;
   margin: 0;
