@@ -89,21 +89,23 @@ let cv =[
 
 let johu = [
     new Project(
-        'Co one tu robią i dlaczego o nich piszę?',
-        'i czemu bez keczupu?',
-        'To jest dość ciekawy element mojego portfolio i mojego CV.<br>Poniżej, kilka ciekawszych projektów.',
+        '<i>Co one tu robią i dlaczego o nich piszę?</i>',
+        '<i>i czemu bez keczupu?</i>',
+        '<i>Młode mamy często decydują się na przebranżowienie w trakcie urlopu macierzyńskiego. W 2016 roku ja postanowiłam powrócić do programowania, które tak bardzo pasjonowało mnie w szkole średniej i na studiach. ' +
+        '<br>Tak się złożyło, że miałam możliwość realizowania kursu z podstaw tworzenia aplikacji na Android (jeszcze wtedy w Java) - to była fajna opcja na początek.' +
+        '<br>Spośród kilkunastu projektów, które powstały w tamtym czasie, mam szczególny sentyment do kilku z nich:</i>',
         ['']
     ),
     new Project(
-        'link',
-        'data',
-        'opis',
+        '<a href="https://github.com/joannahulek/TytusQuiz" target="_blank" class="url-text">'+svg_url+' Tytus Quiz</a>',
+        'kwiecień-czerwiec 2017',
+        'Quiz wiedzy o komiksach z serii "Tytus Romek i A\'Tomek". Aplikacja była kiedyś dostępna na Google Play Store.',
         ['']
     ),
     new Project(
-        'link',
-        'data',
-        'opis',
+        '<a href="https://github.com/joannahulek/TarnowTourGuide" target="_blank" class="url-text">'+svg_url+' Tarnów Tour Guide</a>',
+        'czerwiec 2017',
+        'Prosta aplikacja ułatwiająca zwiedzanie miasta Tarnowa - lista zabytków wraz z krótkimi opisami, zdjęciami i odnośnikami do Wikipedi oraz do wywołania aplikacji zewnętrznej (mapy). Aplikacja była kiedyś dostępna na Google Play Store.',
         ['']
     ),
     new Project(
@@ -158,7 +160,7 @@ function renderProjects(categoriesArray) {
           <div>
             <p class="text-gray-600">${project.title} &emsp; | <small>${project.time}</small></p>
             <div>${project.description}</div>
-            <div><i>${project.links}</i></div>
+            <div>${project.links}</div>
           </div>
         `;
 
