@@ -5,7 +5,7 @@ function renderHero() {
         return;
     }
 
-    let content = `
+    /* let content = `
       <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <table width="100%">
           <tr>
@@ -36,6 +36,22 @@ function renderHero() {
         </table>
       </div>
     `;
+     */
+
+    let content = `
+      <div class="bg-white shadow-md rounded px-8 pb-8 mb-4">
+        <table width="100%">
+          <tr>
+            <th>
+              <h2>Joanna Hulek</h2>
+              <hr width="80%">
+              <h3>Portfolio projektów</h3>
+            </th>
+          </tr>
+        </table>
+      </div>
+    `;
+
     container.innerHTML = content;
 }
 
